@@ -1,0 +1,28 @@
+/*
+Emoji Symbols Font (c)blockworks - Kenichi Kaneko
+http://emojisymbols.com/
+*/
+
+/* Font */
+@font-face {
+    font-family: "EmojiSymbols-Regular";
+    src: url('font/EmojiSymbols-Regular.woff') format('woff');
+    text-decoration: none;
+    font-style: normal;
+}
+
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#output-container {
+	margin-top: 15px;
+}
+
+#output {
+	display: block;
+	width: 500px;
+	height: 400px;
+	font-family: "EmojiSymbols-Regular";
+	font-size: large;
+}
