@@ -1,1 +1,29 @@
-Hello World
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="index.css" rel="stylesheet" type="text/css">
+</head>	
+<body>
+	<form>
+		<label for="count"># of emojis to generate:</label>
+		<input id="count" value="100" />
+		<button id="generate">Go</button>
+	</form>
+	<div id="output-container">
+		Output:
+		<textarea id="output"></textarea>
+	</div>
+	<script src="index.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-19003703-6', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>
